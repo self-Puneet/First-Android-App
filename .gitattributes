@@ -1,5 +1,6 @@
 # Only count Dart files in first_app/lib
 first_app/lib/* linguist-language=Dart
 
-# Exclude everything else from the graph
-* linguist-vendored
+# Exclude everything else except lib folder
+/* linguist-vendored
+!first_app/lib/**
